@@ -1,0 +1,80 @@
+.main {
+  width: 100%;
+  padding: 10px;
+  font-family: "Poppins", sans-serif;
+
+  &__courses {
+    border: 1px black solid;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .aside {
+    border: 1px black solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+
+    &__thumbnail {
+      background-image: url(/assets/img/web-development.png);
+      background-size: contain;
+      height: 250px;
+      width: 250px;
+      border: 1px black solid;
+      border-radius: 50%;
+    }
+
+    &__title {
+      font-size: $large;
+      font-weight: 700;
+      margin: 15px 0;
+    }
+    &__rrss {
+      font-size: $x-large;
+    }
+    &__description {
+      font-size: $medium;
+      line-height: $x-large;
+    }
+    &__more {
+      width: 100%;
+      background-color: rgb(73, 73, 73);
+      display: flex;
+      place-content: center;
+
+      p {
+        font-size: $large;
+        font-weight: 800;
+        color: $white;
+        margin: auto;
+      }
+    }
+
+    &__other-courses {
+      width: 100%;
+      font-size: $medium;
+      list-style: circle;
+      list-style-position: inside;
+    }
+
+    &__img {
+      width: 250px;
+      margin: 20px;
+      .gear {
+        animation-name: spin;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        transform-origin: 80% 80%;
+      }
+      .code {
+        animation-name: wave;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+      }
+    }
+  }
+}

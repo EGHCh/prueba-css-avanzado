@@ -1,0 +1,29 @@
+{
+  "name": "miemprendimientoweb",
+  "version": "1.0.0",
+  "description": "Prueba CSS Avanzadp (g14))",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EGHCh/miEmprendimientoWeb.git"
+  },
+  "keywords": [
+    "css",
+    "sass",
+    "flexbox",
+    "cssGrid"
+  ],
+  "author": "Esteban Hormazabal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EGHCh/miEmprendimientoWeb/issues"
+  },
+  "homepage": "https://github.com/EGHCh/miEmprendimientoWeb#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
+    "bootstrap": "^4.6.1"
+  }
+}

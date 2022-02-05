@@ -1,0 +1,20 @@
+//Vendors
+@import "../../../node_modules/bootstrap/scss/bootstrap.scss";
+//Abstracts
+@import "abstracts/variables";
+
+//Base
+@import "base/reset";
+@import "base/animations";
+
+//Components
+@import "components/cards";
+@import "components/inputs";
+@import "components/buttons";
+
+// Layout
+@import "layout/grid";
+@import "layout/navbar";
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";

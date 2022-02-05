@@ -1,0 +1,33 @@
+.footer {
+  background-color: $black;
+  color: $white;
+  font-size: $large;
+  display: flex;
+  flex-direction: column;
+  place-items: center;
+  padding: 20px 50px;
+  text-align: center;
+
+  & * {
+    margin: 10px;
+  }
+  &__link {
+    color: $white;
+    &:hover {
+      color: $tangerine;
+      text-decoration: none;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    justify-content: space-around;
+    
+    &__links {
+      display: flex;
+      align-items: baseline;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.course-card {
+  width: 90%;
+  min-width: 350px;
+  padding: 10px;
+  align-self: center;
+  border: 1px black solid;
+  font-family: 'Poppins', sans-serif;
+  &__img {
+    width: 100%;
+  }
+  &__title {
+    font-size: $x-large;
+    font-weight: 700;
+    margin: 15px 0px;
+  }
+  &__description {
+    font-size: $small;
+    line-height: $x-large;
+  }
+  &__instructor {
+    font-size: $medium;
+    font-weight: 700;
+    margin: 15px 0px
+  }
+  &__feedback {
+    display: flex;
+    gap: 10px;
+  }
+  &__ico {
+    color: $black;
+    font-size: $x-small;
+  }
+}
